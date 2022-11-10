@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap" rel="stylesheet">
+    <title>QR Code Component</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: hsl(212, 45%, 89%);
+        }
+
+        h1 {
+            padding: 30px 30px 10px 30px;
+            font-family: "Outfit";
+            font-weight: 700;
+            font-size: 24px;
+            color: hsl(218, 44%, 22%);
+        }
+
+        p {
+            padding: 10px 30px 30px 30px;
+            font-family: "Outfit";
+            font-weight: 400;
+            color: hsl(220, 15%, 55%);
+        }
+
+        .qr-card {
+            width: 375px;
+            margin: 100px auto;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            box-sizing: border-box;
+            background-color: white;
+            border-radius: 24px;
+            text-align: center;
+            box-shadow: 10px 10px 40px rgb(204, 216, 230);         
+        }
+
+        .qr-code {
+            height: 335px;
+            background-image: url(files/qr-code-component-main/qr-code-component-main/images/image-qr-code.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+            border-radius: 12px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="qr-card">
+        <div class="qr-code"></div>
+        <div>
+            <h1>Improve your front-end skills by building projects</h1>
+            <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+        </div>
+    </div>
+</body>
+
+</html>
